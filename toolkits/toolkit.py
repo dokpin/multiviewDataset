@@ -272,10 +272,10 @@ class MultiviewDatasetDemo():
 
 
 if __name__ == "__main__":
-    file_path1 = "/media/csc/Seagate Backup Plus Drive/dataset/7-14-1-2"
-    file_path2 = "/media/csc/Seagate Backup Plus Drive/dataset/9-10-1-2"
-    file_path3 = "/media/csc/Seagate Backup Plus Drive/dataset/9-17-1-2"
-    file_path4 = '/media/csc/Seagate Backup Plus Drive/dataset/9-25-1-2'
+    file_path1 = "E:/Dataset/multiviewDatasetRelease/7-14-1-2"
+    file_path2 = "E:/Dataset/multiviewDatasetRelease/9-10-1-2"
+    file_path3 = "E:/Dataset/multiviewDatasetRelease/9-17-1-2"
+    file_path4 = "E:/Dataset/multiviewDatasetRelease/9-25-1-2"
     file_paths = [file_path1,file_path2, file_path3, file_path4]
     manoPath = '/home/csc/MANO-hand-model-toolkit/mano/models/MANO_RIGHT.pkl'
     for path in file_paths:
