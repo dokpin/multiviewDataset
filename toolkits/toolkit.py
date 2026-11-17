@@ -277,7 +277,8 @@ if __name__ == "__main__":
     file_path3 = "E:/Dataset/multiviewDatasetRelease/9-17-1-2"
     file_path4 = "E:/Dataset/multiviewDatasetRelease/9-25-1-2"
     file_paths = [file_path1,file_path2, file_path3, file_path4]
-    manoPath = '/home/csc/MANO-hand-model-toolkit/mano/models/MANO_RIGHT.pkl'
+    #manoPath = '/home/csc/MANO-hand-model-toolkit/mano/models/MANO_RIGHT.pkl'
+    manoPath = None
     for path in file_paths:
         demo=MultiviewDatasetDemo(loadManoParam=True,file_path=path,manoPath=manoPath)
         for i in range(0,20):
